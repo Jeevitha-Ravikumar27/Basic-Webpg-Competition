@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: "Oswald", sans-serif;
+}
+
+/*------------------- Header Styles-------------------- */
+header {
+    background-color: #fff;
+    color: rgb(16, 15, 15);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 13px solid  rgb(222, 216, 216);
+}
+.pi{
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    color: #008080;
+    text-transform: uppercase;
+    font-weight:800;
+}
+.bl{
+    color: #8e8d8d;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+.u{
+    position: relative;
+    bottom: 12px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 19px;
+}
+nav ul li a:hover{
+    color: rgb(100, 199, 123);
+}
+
+/*------------------ About Section --------------------*/
+#event-info {
+    background-color: #80caa0;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+}
+#event-info h1 {
+    color: black;
+    font-weight: 900;
+}
+#event-info p {
+    color: black;
+    margin: 10px 0;
+}
+.ino{
+    color: rgb(97, 96, 96) !important;
+}
+#about {
+    position: absolute;
+    top: -46px;
+    left: 0;
+    right: 0;
+    height: 30px;
+}
+#ok{
+    display: block;
+    width:90lvw;
+    position: absolute;
+    bottom: 370px;
+}
+#b{
+   position: absolute;
+   top: 260px;
+   left: 580px;
+}
+.date{
+    padding: 12px;
+}
+i{
+    margin:5px ;
+    cursor: pointer;
+}
+ .fa-calendar-days{
+    margin-right: 0;
+}
+
+/* ------------------ Event Section --------------------*/
+.image-placeholder {
+    background-color: #80caa0;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0px 430px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+ }
+ .ab{
+    text-align: center;
+    font-weight: 800;
+    margin-top: 140px;
+ }
+ .nj{
+    text-align: center;
+    color: #8e8d8d;
+ }
+ .pl{
+    top: -30px;
+ }
+ hr{
+    margin-top: 180px;
+    margin-bottom: 100px;
+    width: 100%;
+ }
+
+/* ------------------ Form Section --------------------*/
+
+ form {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    padding: 27px;
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    justify-content: center;
+    position: relative;
+ }
+
+ input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #040404;
+    font-family:"Oswald" , sans-serif;
+    text-transform: capitalize;
+ }
+
+ input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+input[type="date"] {
+    padding: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+textarea {
+    width: 90%;
+    height: 100px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-transform:capitalize;
+}
+button {
+    padding: 10px 7px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn{
+    width: 130px;
+}
+.container {
+    width: 35%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 32px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.lab{
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+.fn{
+    font-size: 13px;
+    color: black ;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.fill{
+    font-weight: 300;
+    text-align: center;
+    color: #4a4848;
+    text-decoration: underline;  
+}
